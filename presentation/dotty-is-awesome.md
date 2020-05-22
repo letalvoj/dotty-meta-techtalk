@@ -394,6 +394,7 @@ inline def derived[V](using m: Mirror.Of[V]) as Jsoner[V] =
 ### DEMO - Json Serializer
 
 Let's write a _generic json (de)serializer_ for arbitraty data class.
+[Jsoner.scala](https://github.com/letalvoj/dotty-meta-techtalk/blob/master/src/main/scala/ai/bs/tt/json/Jsoner.scala)
 
 ---
 
@@ -459,6 +460,7 @@ lift(Let("x", Num(3), exp), Map())
 #### DEMO - Quill
 
 Let's implement a _Scala 3_ DSL for writing _SQL_ queries in a typed way.
+[Quill.scala](https://github.com/letalvoj/dotty-meta-techtalk/blob/master/src/main/scala/ai/bs/tt/quill/Quill.scala)
 
 ---
 
