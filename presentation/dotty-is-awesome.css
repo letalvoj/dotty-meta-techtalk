@@ -1,0 +1,17 @@
+code  {
+    background-color: #353535;
+    color: bisque;
+}
+
+.hljs { background-color: #353535; }
+
+.reveal ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* strong {color: DarkGoldenRod;}
+em {color: BurlyWood;} */
+
+strong {color: #e4c699;}
+em {color: #f1ee97;}
